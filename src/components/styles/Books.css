@@ -1,0 +1,15 @@
+
+.Books {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  text-align: unset;
+}
+
+.book-form form {
+  display: flex;
+  flex-direction: column;
+}
