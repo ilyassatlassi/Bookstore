@@ -5,7 +5,6 @@ import Form from './formBook';
 // import { useDispatch } from 'react-redux';
 // import { removeBook } from '../redux/books/booksSlice';
 
-
 function Books(props) {
   const { title, author } = props;
   return (
