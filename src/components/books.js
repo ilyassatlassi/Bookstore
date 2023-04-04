@@ -2,6 +2,8 @@ import React from 'react';
 import './styles/Books.css';
 import PropTypes from 'prop-types';
 import Form from './formBook';
+// import { useDispatch } from 'react-redux';
+// import { removeBook } from '../redux/books/booksSlice';
 
 function Books(props) {
   const { title, author } = props;
