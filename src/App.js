@@ -3,6 +3,7 @@ import './App.css';
 import Books from './components/books';
 import Categories from './components/Categories';
 
+
 function App() {
   return (
     <>
@@ -18,7 +19,7 @@ function App() {
       </nav>
       <div className="footer"><p>Bookstore © 2023</p></div>
       <Routes>
-        <Route path="/" element={<Books title="The subtle Art" author="Mark Manson" />} />
+        <Route path="/" element={<Books/>} />
         <Route path="/Categories" element={<Categories />} />
       </Routes>
     </>

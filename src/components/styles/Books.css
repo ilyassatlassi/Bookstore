@@ -1,5 +1,5 @@
 
-.Books {
+.Book {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,7 +9,12 @@
   text-align: unset;
 }
 
+.book-form {
+  text-align: -webkit-center;
+}
 .book-form form {
   display: flex;
   flex-direction: column;
+  width: 50%;
+  align-items: center;
 }
