@@ -5,7 +5,7 @@ import Form from './formBook';
 import './styles/Books.css';
 
 export default function Books() {
-  const {books} = useSelector((state) => state.books);
+  const { books } = useSelector((state) => state.books);
 
   return (
     <div className="books">
@@ -19,4 +19,4 @@ export default function Books() {
       <Form />
     </div>
   );
- }
+}

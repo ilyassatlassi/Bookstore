@@ -9,7 +9,6 @@ function Book(props) {
   const dispatch = useDispatch();
   const handleClick = () => {
     dispatch(removeBook(id));
-    
   };
   return (
     <div className="Book" data-id={id}>

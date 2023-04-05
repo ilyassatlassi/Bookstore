@@ -10,8 +10,10 @@
 }
 
 .book-form {
+  /* stylelint-disable-next-line */
   text-align: -webkit-center;
 }
+
 .book-form form {
   display: flex;
   flex-direction: column;
