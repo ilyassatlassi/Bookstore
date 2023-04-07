@@ -9,10 +9,6 @@ function Book(props) {
     title, author, category, id,
   } = props;
   const dispatch = useDispatch();
-  // const handleClick = (e) => {
-  //   e.preventDefault();
-  //   dispatch(deleteBooks(id));
-  // };
   return (
     <div className="Book" data-id={id}>
       <ul className="book-list">
