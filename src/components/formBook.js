@@ -1,10 +1,9 @@
 import React, { useRef } from 'react';
 import './styles/Books.css';
-import { useDispatch, useSelector } from 'react-redux';
-import { addBook } from '../redux/books/booksSlice';
+import { useDispatch } from 'react-redux';
+import { insertBooks } from '../redux/books/booksSlice';
 
 function Form() {
-  const { books } = useSelector((state) => state.books);
   const titleVal = useRef();
   const authorVal = useRef();
   const dispatch = useDispatch();
@@ -12,10 +11,12 @@ function Form() {
     e.preventDefault();
     if (titleVal.current.value && authorVal.current.value) {
       dispatch(
-        addBook({
+        insertBooks({
           title: titleVal.current.value,
           author: authorVal.current.value,
-          item_id: books.length,
+          item_id: Math.random().toString(36).substring(2, 15)
+          + Math.random().toString(36).substring(2, 15),
+          category: 'humer',
         }),
       );
       titleVal.current.value = '';
