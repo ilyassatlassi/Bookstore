@@ -30,9 +30,9 @@ function Form() {
     <div className="book-form">
       <h2>Add Book</h2>
       <form>
-        <input placeholder="Book title" ref={titleVal} />
-        <input placeholder="Book author" ref={authorVal} />
-        <input type="submit" value="Submit" onClick={handleClick} />
+        <input className='input-title' placeholder="Book title" ref={titleVal} />
+        <input className='input-author' placeholder="Book author" ref={authorVal} />
+        <input className='btn' type="submit" value="Submit" onClick={handleClick} />
       </form>
     </div>
   );

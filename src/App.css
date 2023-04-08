@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,7 +6,7 @@
   font-family: sans-serif;
 }
 
-.App {
+/* .App {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -37,4 +38,78 @@
   width: 100%;
   text-align: center;
   background-color: #737373;
+} */
+
+body {
+    background-color: #f5f6fa;
+}
+
+.App {
+  height: 68.563rem;
+  padding: 5%;
+  border-radius: 4px;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+}
+nav{
+  
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  min-height: 5em;
+  padding: 0 3em;
+  box-shadow: 0 2.5px 2.5px #888;
+}
+
+.header ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.header__logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0290ff;
+}
+
+.header .books {
+  width: 3.688rem;
+  height: 1rem;
+  font-family: Montserrat;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+
+
+}
+
+.header .Categories {
+  width: 6.563rem;
+  height: 1rem;
+  margin: 1.125rem 41.5rem 0.688rem 2.563rem;
+  opacity: 0.5;
+  font-family: Montserrat;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212
 }
