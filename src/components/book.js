@@ -5,7 +5,6 @@ import { useDispatch } from 'react-redux';
 import { deleteBooks } from '../redux/books/booksSlice';
 import progressBar from '../assets/progress-bar.png';
 
-
 function Book(props) {
   const {
     title, author, category, id,
@@ -14,7 +13,7 @@ function Book(props) {
   return (
     <div className="Book" data-id={id}>
       <ul className="book-list">
-        <li className='category'>
+        <li className="category">
           {category}
         </li>
         <li className="title">
@@ -24,15 +23,15 @@ function Book(props) {
           {author}
         </li>
         <ul className="book-list-item-action-list">
-        <li className="book-list-item-action-list-item"><button type="submit">Comments</button></li>
+          <li className="book-list-item-action-list-item"><button type="submit">Comments</button></li>
           <hr />
           <li className="book-list-item-action-list-item">
-        <button type="button" onClick={() => dispatch(deleteBooks(id))}>Delete</button>
-      </li>
-      <hr />
+            <button type="button" onClick={() => dispatch(deleteBooks(id))}>Delete</button>
+          </li>
+          <hr />
           <li className="book-list-item-action-list-item"><button type="submit">Edit</button></li>
         </ul>
-        
+
       </ul>
       <div className="book-list-item-right">
         <div className="book-list-item-right-left">
@@ -49,7 +48,7 @@ function Book(props) {
           <button type="submit" className="btn">UPDATE PROGRESS</button>
         </div>
       </div>
-      
+
     </div>
   );
 }

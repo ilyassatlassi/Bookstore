@@ -5,10 +5,10 @@ import Categories from './components/Categories';
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <nav>
         <div className="header">
-      <Link className="header__logo" to="/">Bookstore CMS</Link>
+          <Link className="header__logo" to="/">Bookstore CMS</Link>
           <ul>
             <li><Link to="/" className="books">Books</Link></li>
             <li><Link to="/Categories">Categories</Link></li>
