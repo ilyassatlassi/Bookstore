@@ -32,7 +32,7 @@ function Form() {
       <form>
         <input className="input-title" placeholder="Book title" ref={titleVal} />
         <input className="input-author" placeholder="Book author" ref={authorVal} />
-        <input className="btn" type="submit" value="Submit" onClick={handleClick} />
+        <input className="btn-submit" type="submit" value="Add Book" onClick={handleClick} />
       </form>
     </div>
   );

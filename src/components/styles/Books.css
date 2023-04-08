@@ -99,10 +99,10 @@
 }
 
 .btn {
+  padding: 1em 3em;
+  margin-top: 5px;
   cursor: pointer;
   border: none;
-  margin: 1.188rem 2.125rem 0;
-  padding: 0.375rem 0.938rem 0.563rem 1rem;
   background-color: #0290ff;
   border-radius: 3px;
   color: white;
@@ -151,4 +151,17 @@
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: #fff;
+}
+
+.btn-submit {
+  width: 11.5rem;
+  height: 2.813rem;
+  padding: 1em 4em;
+  margin: 1.188rem 2.125rem 0;
+  cursor: pointer;
+  border: none;
+  background-color: #0290ff;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
 }

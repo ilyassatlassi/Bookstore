@@ -74,3 +74,10 @@ a {
   letter-spacing: 1.9px;
   color: #121212;
 }
+
+.profile img {
+  width: 2.813rem;
+  height: 2.813rem;
+  margin: 0 0 0 41.5rem;
+  padding: 0.875rem;
+}
